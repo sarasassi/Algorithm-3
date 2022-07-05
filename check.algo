@@ -1,0 +1,18 @@
+ALGORITHM sorting ans searching
+
+VAR
+   arr : ARRAY OF INTEGER[50];
+   step,key,i : INTEGER;
+
+BEGIN 
+   FOR step FROM 1 TO arr.length-1 STEP  1 DO 
+       key := arra[step];
+       i   := step-1;
+   WHILE (kzey<arr [i] and i>=0)  DO
+       arr[i+1]=arr[i];
+       i:= i-1;
+   END WHILE
+       arr[i+1]=key;
+     
+   END_FOR
+       
